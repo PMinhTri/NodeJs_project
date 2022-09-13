@@ -1,0 +1,19 @@
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "username" : "minhtri",
+    "password" : "minhtri"
+}
+
+###
+
+POST http://localhost:5000/api/posts
+Content-Type: application/json 
+Authorization: {Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmU5NDJkNGI5MWE1Y2JjZDBhZWMyOWEiLCJpYXQiOjE2NTk2ODIxNDd9.fH59oXbjV5j3taiZw3RoTaKtfGIoyrxPw4CQ9sUWFSY}
+{
+    "title":"",
+    "description":"abc",
+    "url" : "google.com",
+    "status" : "LEARNING"
+}
