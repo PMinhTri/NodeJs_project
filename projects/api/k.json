@@ -1,0 +1,9 @@
+{
+  "title": "pumatshirt",
+  "desc": "this is a tshirt",
+  "img": "test",
+  "categories": ["tshirt", "man"],
+  "size": "XL",
+  "color": "White",
+  "price": 150000
+}
